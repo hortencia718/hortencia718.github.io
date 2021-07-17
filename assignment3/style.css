@@ -1,0 +1,54 @@
+/* body{
+    margin:0;
+    padding:0;
+} */
+
+/* container for images */
+.box{
+    display: flex;
+    width:90%;
+    height: 600px;
+    padding:12px;
+    margin-top: 5%;
+    color:rgb(42, 60, 219);
+    border: 3px solid hotpink;
+    background-color: rgb(207, 232, 212);
+    box-shadow: 4px 6px 6px rgb(128, 105, 255);
+}
+
+.box div  {
+    width: 30%;
+    height: 55%;
+    border: 2px solid rgb(55, 63, 175);
+    margin: 3% 3% 0 4%;
+    
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+   
+    
+  
+}
+
+h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.A p{
+    font-size: 16px;
+    text-align: center;
+    color:hotpink
+}
+
+.A p b {
+    font-weight: bold;
+    color:rgb(7, 10, 207);
+}
+p.words{
+    color:rgb(67, 13, 105);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
