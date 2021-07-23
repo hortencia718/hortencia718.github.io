@@ -17,6 +17,11 @@
 
 }
 
+div.clock{
+    width: 50%;
+    height:75%;
+}
+
 
 
 /* animation */
@@ -58,11 +63,11 @@ div.hand1{
 
 
 img.handy1{
-    height:80px
+    height:180px
 }
 
 img.handy2{
-    height: 130px;
+    height: 300px;
    
 }
 
