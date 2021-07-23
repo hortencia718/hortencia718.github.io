@@ -1,0 +1,110 @@
+/* .img{
+    width:100%;
+    height:100%;
+} */
+/* main{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+} */
+
+
+.clock{
+    background-size: 100% 100%;
+    background-image: url("img/clockimage.png");
+    background-color: rgb(217, 230, 35) ;
+    /* margin-bottom: 20%; */
+    width: 900px;
+    height: 900px;
+    /* top:40px; */
+    position: fixed;
+    margin-left: 20%;
+    margin-top: 20%;
+    border-radius: 4px;
+    border: 8px solid rgb(67, 211, 247);
+    box-shadow: 8px 6px 8px 6px cyan;
+
+}
+
+
+
+/* animation */
+ /* @keyframes rotate {
+   100%{transform: rotate(360deg);} 
+}  */
+
+
+
+
+div.hand1{
+    width: 150px;
+    bottom: 10%;
+    left:40%;
+    top: 0%;
+    /* border: 4px solid orangered; */
+    position: absolute;
+    animation: hand1 10s infinite ;
+    transform: transform(360deg) ;
+    animation-duration: 10s;
+    
+}
+
+/* image hand */
+.handy1{
+    /* border: 4px solid rgb(47, 78, 255); */
+    left:29%;
+    top:40%;
+    position: fixed;
+    transform-origin: 15% 53%;
+}
+
+@keyframes hand1 {
+    100%{transform: rotate(360deg);}
+}
+
+
+/* this is my image */
+.handy2{
+    /* border: 2px solid hotpink; */
+    position: absolute;
+    left:9%;
+    top:38%;
+    transform: rotate(180deg);
+    transform-origin:  79% 48%;
+
+}
+@keyframes hand2 {
+    100%{ transform: rotate(180deg);
+        transform-origin:  79% 20%;  
+    } 
+      
+    }
+
+
+
+
+div.hand2{
+    width: 48%;
+    left:20%;
+    top:38%;
+   
+    /* border: 2px solid red; */
+    position: absolute;
+    transform: transform(40deg);
+    animation-duration: 10s;
+    animation: hand2 10s infinite;
+  
+   
+   /* second hand must move once after 
+   first hand rotates once every  360 rotation*/
+} 
+/* @keyframes hand2 {
+    100%{ transform: rotate(30deg);}
+} */
+
+
+
+
+ 
