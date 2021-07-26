@@ -1,0 +1,26 @@
+h1, h2{
+    color:magenta;
+    text-align: center;
+    font-family: cursive;
+  
+}
+
+p{
+    /* border: 6px solid mediumorchid; */
+    text-align: center;
+    color:rgb(238, 127, 153);
+    /* word-wrap: break-word; */
+   
+}
+
+img.red{
+width:80%;
+height: 90%;
+margin: 4px;
+padding: 12px;
+}
+
+a.nav-item.nav-link:focus{
+    background-color: rgb(217, 255, 0);
+
+}
