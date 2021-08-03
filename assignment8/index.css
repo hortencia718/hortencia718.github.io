@@ -1,0 +1,12 @@
+body{
+    background: rgb(174, 181, 199);
+}
+
+
+h1{
+    text-align: center;
+}
+p , b{
+    margin-left: 12px;
+    
+}
