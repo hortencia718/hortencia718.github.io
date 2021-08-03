@@ -4,223 +4,81 @@ body{
     background:linear-gradient(to right, hotpink, rgb(214, 143, 61), rgb(255, 136, 0)) ;
 }
 
-/* style my button visual */
-.btn{
-    background-color: rgb(157, 255, 0);
-    text-decoration: none;
-    padding: 18px;
-    /* position: center; */
-    color:red;
-    margin-left: 50%;
-    margin-top: 12px ; 
-    
-  }
-
-
-/* move btn */
-  .Ab{
-    /* margin-top:52px; */
-    margin-left: 22px;
-    padding:12px;
-  }
-
- 
-
-  h1{
-      display: flex;
-       color:greenyellow;
-       font-size: 22px;
-  }
-
-  h2{
-      font-size: 12px;
-      color:lightyellow;
-  }
-
-
-p{
-    font-size: 14px;
-    width: 12%;
-    height: 29%;
-}
-  
-
-
-.modal{
-    display:flex;
-    justify-content: space-around;
-
+main{
+    background-color: slategray;
+    height:auto;
+    width: 100%;
 }
 
+.section1{
 
-  .modal-window{
-    /* display: flex; */
-    opacity: 0;
+        height: auto;
+        width: 100%;
+        float: left;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+
+}
+/* container */
+.product-intro{
+    width: 40%;
+    display:inherit;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* img container info */
+.product-intro > img{
+    width: 90%;
+    height: 90%;
+}
+
+.section1 > div:nth-child(1){
+    padding: 10px;
+    background-color: rgba(211, 152, 152, 0.995);
+}
+
+.section1 > div:nth-child(2){
+    background-color: rgb(211, 152, 152);
+    padding: 12px;
+}
+
+.modal1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(70, 51, 51);
     pointer-events: none;
-    position:fixed;
-    top: 0 ;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    /* border:2px solid rgb(235, 231, 231) ; */
-    background:linear-gradient(to right, hotpink, rgb(214, 143, 61), rgb(255, 136, 0)) ;
-  }
-
-
-  .modal-window:target{
-    opacity: 1;
-    pointer-events: auto;
-    border:2px solid ivory;
-  }
-
-
-
-img.mars{
-border-radius: 12px;
-border: 2px solid gray;
-
-}
-
-/* main window */
-#Mpopup{
-    position:fixed;
-    top: 0 ;
-    padding:12px;
-    margin: 12px;
-    opacity: 0;
-    display: flex;
-    width:90%;
-    background-color: rgb(6, 62, 59);
-
-}
-
-
-/* popup */
-#Mpopup p{
-    background-color: lightblue;
-    padding:12px;
-    margin:12px;
-    /* width: 15%; */
-    /* height:48%; */
-    font-size: 12px;
-    
- } 
-
-
-#Mpopup:target{
-opacity: 0.9;
-
-}
-
-#popup{
-    position:fixed;
-    top: 0 ;
-    padding:12px;
-    margin: 12px;
-    opacity: 0;
-    display: flex;
-    width:90%;
-    background-color: rgb(16, 77, 74);
-}
-
-#popup:target{
-    opacity: 0.9;
-    
-    }
-
-
-img{
-    width: 45%;
-    height: 55%;
-    border:honeydew;
-}
-
-
-.message-area {
-    display:flex;
-  flex-direction: column;
-  align-items: center;
-  border:6px solid rgb(243, 253, 97);
-  padding:32px;
-  margin:12px;
-  /* width:50%; */
- /* background-color: rgb(252, 0, 42); */
- 
-
-}
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-/* .center {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-}
-
-.center a{
-padding: 10px 20px;
-background: white;
-color:magenta;
-font-size: 16px;
-font-weight: 600;
-text-decoration: none;
-border-radius: 3px;
-
-}
-
-#popup{
     position: fixed;
-    top:0px;
-    left:0px;
-    height:100vw;
-    background: rgba(0,0,0,0,75);
-    display:none;
+    top: 0;
+    padding:5% 20% 50% 20%;
+    opacity: 0;
 }
 
+.modal1:target{
+    opacity: 0.9;
+    pointer-events:all;
 
-#popup .popup-content{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    padding: 10px 20px;
-    background: #eee;
 }
 
-#popup a.close-popup {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 20px;
-    font-weight: 600;
+.modal1 > img{
+    width: 60%;
+}
+/* buttons open/close */
+a {
+    padding:10px;
     text-decoration: none;
 }
-
-#popup:target{
-    display: block;
+a.open{
+    border: 2px solid  slategray;
 }
- */
 
-
-
+button{
+    padding: 10px;
+    border: 2px solid  rgba(211, 152, 152, 0.995);
+    color: slategrey;
+   font-size: 22px;
+}
