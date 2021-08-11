@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(222, 207, 208);
+}
+
+h1, h3{
+   display: flex;
+   color:rgb(97, 62, 27);
+   text-align: center;
+   justify-content: center;
+   margin-top: 4%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div form{
+   
+    display:block;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+/* label */
+ label{
+    display: block;
+    position: relative;
+    padding: 5px;
+    outline: none;
+    color:rgb(97, 62, 27);
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+input[type=text] {
+    padding:15px;
+    margin: 10px 0;
+    width:200px;
+    border-radius: 4px;
+    border: 0;
+    border-bottom:2px solid grey;
+  
+}
+
+input[type=number]{
+    padding: 15px;
+    margin: 10px 0;
+    width:200px;
+    border-radius: 4px;
+    border:0;
+    border-bottom:2px solid grey;
+  
+}
+
+input,textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:lightslategray;
+}
+
+
+button{
+    margin: 18px;
+    padding:12px;
+    width:10%;
+    font-size: 16px;
+    border-radius: 4px;
+    color:rgb(97, 90, 201);
+    font-weight: 700;
+    box-shadow: rgb(248, 30, 175) 0px 0px 0px 6px;
+}
