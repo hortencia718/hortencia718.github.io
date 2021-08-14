@@ -1,0 +1,279 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+
+
+body{
+font-family: 'Ubuntu', sans-serif;
+margin:0;
+padding:0;
+
+
+}
+
+/* means when adding padding will not increase the size of the div   */
+* {
+    box-sizing: border-box;  
+   
+
+}
+
+ 
+ 
+
+
+
+
+/* .navbar ul{
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: column;
+
+} */
+
+
+
+  .navbar ul {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    color:floralwhite;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* text-decoration: none; */
+}
+
+
+ li a{
+    display:flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin: 10px;
+    color:ivory;
+   
+
+} 
+
+.section-one{
+    border: 2px solid rgb(244, 232, 232);
+    background-color: rgb(17, 149, 189);
+    margin-bottom: 100px;
+}
+
+.intro{
+    background-repeat: no-repeat;
+    /* color: white; */
+    /* background-color: white; */
+    height: 900px;
+}
+
+
+.hero-img {
+    display:flex;
+    background-image: url(img/isla\ espiritu\ santo\ hero\ .png);
+    height:100%;
+    width: 100%;
+    /* z-index:0; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* overflow: hidden; */
+   
+}
+
+
+div.navbar{
+    margin-left: 222px;
+}
+
+/* rainbow text header */
+h1#rainbow-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6em;
+    align-items: center;
+    margin-left: 4em;
+    font-size:60px;
+    background-image: 
+      linear-gradient(to right, rgb(203, 5, 15),rgb(255, 91, 2),yellow,green,rgb(20, 20, 245),rgb(127, 233, 86),rgb(133, 5, 133)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: move 500s linear infinite;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+@keyframes move {
+	to {
+		background-position: 2400vh;
+	}
+}
+
+.agency-name{
+    color:rgb(198, 24, 39);
+    font-size: 23px;
+}
+
+
+/* text mark */
+ mark {
+    position: absolute;
+    display:flex;
+    color: rgba(171, 72, 72, 0.92);
+    font-family: 'ABeeZee', sans-serif; 
+    font-size: 28px;
+    padding:12px;
+    border-radius: 4px;
+    
+}
+
+
+h2.mark{
+    margin-left: 6em;
+    padding: 18px;
+    color:rgb(16, 32, 148);
+    text-overflow: wrap;
+    display:block;
+    font-size: 26px;
+    /* border: 2px solid green; */
+    margin-bottom: 12px;
+    
+}
+
+
+
+
+
+
+
+/* one line p tag after image */
+.booking{
+    background: rgba(200, 223, 236, 0.92);
+    padding:10px;
+    /* border:2px solid rgb(228, 46, 46); */
+}
+
+.booking-content h2 {
+    /* /* display: flex; */
+    /* padding:10px; */
+    color: rgb(13, 13, 100); 
+    /* max-width:100px; */
+    margin:4rem;
+    /* word-wrap: break-all; */
+}
+
+
+
+
+/* new cards */
+
+
+
+
+  
+
+
+
+
+.flex-container {
+    display: flex;
+    margin: 12px;
+    padding: 12px;
+}
+
+div#content{
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: min-max(150px,auto);
+    justify-content: space-evenly;
+    grid-gap:20px;
+    display:grid;
+    padding: 20px;
+    flex-direction: column;
+
+    max-width:100%;
+    margin:0 auto;
+    position: relative;
+    /* border: 2px solid rgb(233, 20, 162); */
+}
+
+
+.div card-1{
+    display: flex;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    /* border-radius: 20px; */
+}
+
+
+img{
+    width:300px;
+    border-radius: 12px;
+    height: 350px;
+    display: flex;
+  
+
+}
+
+
+
+/* booking */
+
+div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 20%;
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Nanum Gothic';
+    width: 10%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 20%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button { 
+    height: 50px;
+    background: rgb(77, 131, 213);
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    padding:14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+
+
+  /* /* animation * */

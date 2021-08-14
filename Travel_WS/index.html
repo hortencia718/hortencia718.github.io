@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap" rel="stylesheet">
+    
+    <title>Travel website</title>
+</head>
+<body>
+    
+
+     
+          <!-- hero image div -->
+          <section class="section-one"> 
+            <div class="navbar"> 
+                <ul>
+                    <li><a href="https://matadornetwork.com/trips/12-outdoor-adventures-mexico/">Adventures</a></li>
+                    <li><a href="https://www.touropia.com/regions-in-mexico-map/">Regions</a></li>
+                    <li><a href="https://www.liveabout.com/music-of-mexico-son-ranchera-mariachi-2141530">Music</a></li>
+                </ul>
+             <h2 class="agency-name">Virtual Bookings made easy</h2>  
+                </div>
+
+
+            <div class="intro">
+                <div class="hero-img">   
+                    <h1 id="rainbow-text">Explore Mexico</h1> 
+                    <h2><mark>There's something for everyone in mexico.</h2></mark>
+                 
+               </div>
+               
+               <div>
+                <h2 class="mark">Come book your ticket with us today!  Hotel Bookings We Got You Covered,<br>
+                    <b>"You Won't Be Disappointed With Our Services". </b> 
+                 </h2>
+               </div>
+          </section>
+       
+          <br>
+          <br>
+
+
+          
+               
+
+       
+        
+     
+
+    <!-- booking form section -->
+
+  
+
+
+
+
+<!-- form for booking  -->
+
+    <div class="booking">
+        <form action="" class="" method="POST">
+            <div class="elem-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="visitor_name" placeholder="John Doe" required>
+            </div>
+            <div class="elem-group">
+              <label for="email">Your E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">Your Phone</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" required>
+            </div>
+            <hr>
+            <div class="elem-group inlined">
+              <label for="adult">Adults</label>
+              <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="child">Children</label>
+              <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkin-date">Check-in Date</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+            <div class="elem-group inlined">
+              <label for="checkout-date">Check-out Date</label>
+              <input type="date" id="checkout-date" name="checkout" required>
+            </div>
+            <div class="elem-group">
+              <label for="room-selection">Select Room Preference</label>
+              <select id="room-selection" name="room_preference" required>
+                  <!-- <option value="">Choose a Room from the List</option> -->
+                  <option value="connecting">Connecting</option>
+                  <option value="adjoining">Adjoining</option>
+                  <option value="adjacent">Adjacent</option>
+              </select>
+            </div>
+            <hr>
+            <div class="elem-group">
+              <label for="message">Anything Else?</label>
+              <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+            </div>
+            <button type="submit">Book The Rooms</button>
+          </form>
+
+        <div class="booking-content"> 
+            <div class="botton-text">
+                <h2>Mexico a magical place where adventure awaits,
+                    So come explore mexico you wont be disappointed.
+                </h2>
+            </div> 
+        </div>
+    </div>
+
+    <!-- cards -->
+
+
+    <!-- <div class="wrapper">
+        <div class="cards_item">
+            <div class="card_inner">
+                <div class="card_top">
+                    <img src="img/playa del amor.png" alt="">
+                </div>
+                <div class="card_bottom">
+                    <div class="card_category">
+                        Travel
+                    </div>
+                    <div class="card_infor">
+                        <p class="title">10 best things about travel</p>
+                        <p>some text here</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+        <!-- old cards --> 
+        <div class="flex-container">
+            <div id="content">
+                <div class="card-1">
+                    <img src="img/archsite.png" alt="ruin in mexico">
+                    <h5>Archaeological</h5>
+                </div>
+                     <div class="card-2">
+                       <a href="https://archaeology-travel.com/destinations/north-america/mexico/"><img src="img/off the beaten path.png" alt="travel shot"></a>
+                        <h5>Culture</h5>
+                     </div>
+                     <div class="card-3">
+                       <a href="https://travel.usnews.com/rankings/best-mexico-beaches/"><img src="img/playa del amor.png" alt="cave beach"></a>
+                        <h5>beaches</h5>
+                     </div>  
+                     
+                     <div class="card-4">
+                     <a href="https://www.roughguides.com/mexico/eating-drinking/" ><img src="img/christine-siracusa-vzX2rgUbQXM-unsplash.jpg" alt="food"></a>
+                       <h5>food</h5>
+                    </div> 
+                    <div class="card-5">
+                      <a href="https://traveltriangle.com/blog/shopping-in-mexico/"><img src="img/jeremy-lwanga-azE50UpJDP0-unsplash.jpg" alt="shopping"></a> 
+                       <h5>shopping</h5>
+                    </div>
+                    <div class="card-6">
+                      <a href="https://nationalmuseumofmexicanart.org/"><img src="img/frida.png" alt="art"></a>
+                       <h5>art</h5>
+                    </div>
+
+
+        </div>
+       
+
+
+   
+    
+        
+
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
