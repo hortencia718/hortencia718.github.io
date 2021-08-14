@@ -169,12 +169,6 @@ h2.mark{
 
 
 
-
-  
-
-
-
-
 .flex-container {
     display: flex;
     margin: 12px;
@@ -201,7 +195,37 @@ div#content{
     display: flex;
     grid-column: 3/4;
     grid-row: 3/4;
-    /* border-radius: 20px; */
+    /* border: 2px solid grey; */
+}
+
+
+div.card-1, .card-2 {
+    border: 2px solid rgb(211, 221, 225);
+    padding: 14px;
+}
+
+div.card-3, .card-4{
+    border: 2px solid rgb(216, 229, 235);
+    padding: 14px;
+}
+
+div.card-5, .card-6{
+    border: 2px solid rgb(218, 225, 228);
+    padding: 14px;
+}
+
+div.card-1, .card-2,  .card-3 p{
+    color: rgb(168, 174, 179);
+}
+
+div.card-4, .card-5, .card-6 p{
+    color:rgb(128, 143, 152);
+}
+
+
+h5{
+    color:lightcoral;
+    font-size: 18px;;
 }
 
 
